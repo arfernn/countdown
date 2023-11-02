@@ -163,6 +163,12 @@ footer img:hover {
 @media (min-width: 500px) {
   .card {
     width: 8rem;
+    &::before {
+      top: 38%;
+    }
+    &::after {
+      top: 38%;
+    }
   }
   .card__number {
     height: 8rem;
